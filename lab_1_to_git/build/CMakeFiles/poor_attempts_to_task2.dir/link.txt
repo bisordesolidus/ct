@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -g CMakeFiles/poor_attempts_to_task2.dir/poor_attempts_to_task2.cpp.o -o poor_attempts_to_task2  /usr/lib/x86_64-linux-gnu/libgmsh.so 

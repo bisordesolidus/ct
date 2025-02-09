@@ -1,0 +1,1 @@
+/usr/bin/c++ -std=c++11 -g CMakeFiles/tor.dir/tor.cpp.o -o tor  /usr/lib/x86_64-linux-gnu/libgmsh.so 

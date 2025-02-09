@@ -1,0 +1,5 @@
+/home/bisordesolidus/proga_4_semestr/lab_1/miniscience-4th-term/2025/01_meshes/cpp/build/CMakeFiles/tor.dir
+/home/bisordesolidus/proga_4_semestr/lab_1/miniscience-4th-term/2025/01_meshes/cpp/build/CMakeFiles/poor_attempts_to_task2.dir
+/home/bisordesolidus/proga_4_semestr/lab_1/miniscience-4th-term/2025/01_meshes/cpp/build/CMakeFiles/task2_correct.dir
+/home/bisordesolidus/proga_4_semestr/lab_1/miniscience-4th-term/2025/01_meshes/cpp/build/CMakeFiles/edit_cache.dir
+/home/bisordesolidus/proga_4_semestr/lab_1/miniscience-4th-term/2025/01_meshes/cpp/build/CMakeFiles/rebuild_cache.dir
