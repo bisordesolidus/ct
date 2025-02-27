@@ -1,0 +1,5 @@
+/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/cubic2d.dir
+/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/cubic3d.dir
+/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/tetr3d.dir
+/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/edit_cache.dir
+/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2135 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 5.15.167.4-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/g++ 
+      Build flags: -std=c++11
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ki997l"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ki997l"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ki997l'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_45294/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_45294.dir/build.make CMakeFiles/cmTC_45294.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ki997l'
+        Building C object CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o
+        /usr/bin/gcc   -v -o CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_45294.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_45294.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccOV0q0p.s
+        GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 38987c28e967c64056a6454abdef726e
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_45294.dir/'
+         as -v --64 -o CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o /tmp/ccOV0q0p.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_45294
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45294.dir/link.txt --verbose=1
+        /usr/bin/gcc  -v CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o -o cmTC_45294 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/gcc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45294' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45294.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9tfNGO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_45294 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45294' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45294.'
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ki997l'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ki997l']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_45294/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_45294.dir/build.make CMakeFiles/cmTC_45294.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ki997l']
+        ignore line: [Building C object CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/gcc   -v -o CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_45294.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_45294.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccOV0q0p.s]
+        ignore line: [GNU C17 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 38987c28e967c64056a6454abdef726e]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_45294.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o /tmp/ccOV0q0p.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_45294]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45294.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/gcc  -v CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o -o cmTC_45294 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_45294' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_45294.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/cc9tfNGO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_45294 /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc9tfNGO.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_45294] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_45294.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-grEYD2"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-grEYD2"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-std=c++11"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-grEYD2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8310c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8310c.dir/build.make CMakeFiles/cmTC_8310c.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-grEYD2'
+        Building CXX object CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/g++   -std=c++11    -v -o CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8310c.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8310c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=c++11 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccA1z3Q5.s
+        GNU C++11 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 13.3.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/13
+         /usr/include/x86_64-linux-gnu/c++/13
+         /usr/include/c++/13/backward
+         /usr/lib/gcc/x86_64-linux-gnu/13/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: c81c05345ce537099dafd5580045814a
+        COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8310c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccA1z3Q5.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_8310c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8310c.dir/link.txt --verbose=1
+        /usr/bin/g++ -std=c++11   -v CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8310c 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/g++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'cmTC_8310c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8310c.'
+         /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbW4tPf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8310c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'cmTC_8310c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8310c.'
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-grEYD2'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/13]
+          add: [/usr/include/x86_64-linux-gnu/c++/13]
+          add: [/usr/include/c++/13/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/13] ==> [/usr/include/c++/13]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/13] ==> [/usr/include/x86_64-linux-gnu/c++/13]
+        collapse include dir [/usr/include/c++/13/backward] ==> [/usr/include/c++/13/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/13/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/13/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/13;/usr/include/x86_64-linux-gnu/c++/13;/usr/include/c++/13/backward;/usr/lib/gcc/x86_64-linux-gnu/13/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-grEYD2']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8310c/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_8310c.dir/build.make CMakeFiles/cmTC_8310c.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-grEYD2']
+        ignore line: [Building CXX object CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/g++   -std=c++11    -v -o CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8310c.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_8310c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=c++11 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccA1z3Q5.s]
+        ignore line: [GNU C++11 (Ubuntu 13.3.0-6ubuntu2~24.04) version 13.3.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.3.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/13"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/13/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/13]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/13]
+        ignore line: [ /usr/include/c++/13/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/13/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: c81c05345ce537099dafd5580045814a]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8310c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccA1z3Q5.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_8310c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8310c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/g++ -std=c++11   -v CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_8310c ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/g++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 13.3.0-6ubuntu2~24.04' --with-bugurl=file:///usr/share/doc/gcc-13/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-13 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-13-fG75Ri/gcc-13-13.3.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 13.3.0 (Ubuntu 13.3.0-6ubuntu2~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/13/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/13/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/13/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-std=c++11' '-v' '-o' 'cmTC_8310c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_8310c.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/13/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbW4tPf.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_8310c /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/13 -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/13/../../.. CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/13/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/13/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccbW4tPf.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_8310c] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..]
+          arg [CMakeFiles/cmTC_8310c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13] ==> [/usr/lib/gcc/x86_64-linux-gnu/13]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/13/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/13/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/13;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:162 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-nYBI9B"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-nYBI9B"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-nYBI9B'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_aaef1/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_aaef1.dir/build.make CMakeFiles/cmTC_aaef1.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-nYBI9B'
+        Building C object CMakeFiles/cmTC_aaef1.dir/src.c.o
+        /usr/bin/gcc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_aaef1.dir/src.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-nYBI9B/src.c
+        Linking C executable cmTC_aaef1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aaef1.dir/link.txt --verbose=1
+        /usr/bin/gcc CMakeFiles/cmTC_aaef1.dir/src.c.o -o cmTC_aaef1 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-nYBI9B'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-JFwwZ6"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-JFwwZ6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-JFwwZ6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_511d2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_511d2.dir/build.make CMakeFiles/cmTC_511d2.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-JFwwZ6'
+        Building C object CMakeFiles/cmTC_511d2.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_511d2.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-JFwwZ6/test_mpi.c
+        Linking C executable cmTC_511d2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_511d2.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_511d2.dir/test_mpi.c.o -o cmTC_511d2  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-JFwwZ6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_96f33/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_96f33.dir/build.make CMakeFiles/cmTC_96f33.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_96f33.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_96f33.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_96f33.dir/build.make:78: CMakeFiles/cmTC_96f33.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_96f33/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:682 (check_library_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-sbHhkk"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-sbHhkk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-sbHhkk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9b5b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b9b5b.dir/build.make CMakeFiles/cmTC_b9b5b.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-sbHhkk'
+        Building C object CMakeFiles/cmTC_b9b5b.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_b9b5b.dir/CheckFunctionExists.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-sbHhkk/CheckFunctionExists.c
+        Linking C executable cmTC_b9b5b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9b5b.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_b9b5b.dir/CheckFunctionExists.c.o -o cmTC_b9b5b  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-sbHhkk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:697 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-QuXvbh"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-QuXvbh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-QuXvbh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9633c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9633c.dir/build.make CMakeFiles/cmTC_9633c.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-QuXvbh'
+        Building C object CMakeFiles/cmTC_9633c.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_9633c.dir/CheckFunctionExists.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-QuXvbh/CheckFunctionExists.c
+        Linking C executable cmTC_9633c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9633c.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_9633c.dir/CheckFunctionExists.c.o -o cmTC_9633c 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-QuXvbh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:711 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1DeuPk"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1DeuPk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1DeuPk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f2353/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f2353.dir/build.make CMakeFiles/cmTC_f2353.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1DeuPk'
+        Building C object CMakeFiles/cmTC_f2353.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_f2353.dir/CheckFunctionExists.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1DeuPk/CheckFunctionExists.c
+        Linking C executable cmTC_f2353
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2353.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_f2353.dir/CheckFunctionExists.c.o -o cmTC_f2353 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1DeuPk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:720 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-hjF96o"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-hjF96o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-hjF96o'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_84f93/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_84f93.dir/build.make CMakeFiles/cmTC_84f93.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-hjF96o'
+        Building C object CMakeFiles/cmTC_84f93.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_84f93.dir/CheckFunctionExists.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-hjF96o/CheckFunctionExists.c
+        Linking C executable cmTC_84f93
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84f93.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_84f93.dir/CheckFunctionExists.c.o -o cmTC_84f93 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-hjF96o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:729 (check_function_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-tIattB"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-tIattB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-tIattB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bf5a5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bf5a5.dir/build.make CMakeFiles/cmTC_bf5a5.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-tIattB'
+        Building C object CMakeFiles/cmTC_bf5a5.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_bf5a5.dir/CheckFunctionExists.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-tIattB/CheckFunctionExists.c
+        Linking C executable cmTC_bf5a5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf5a5.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_bf5a5.dir/CheckFunctionExists.c.o -o cmTC_bf5a5 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-tIattB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindX11.cmake:739 (check_library_exists)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:1149 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fPQrty"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fPQrty"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fPQrty'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_58f50/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_58f50.dir/build.make CMakeFiles/cmTC_58f50.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fPQrty'
+        Building C object CMakeFiles/cmTC_58f50.dir/CheckFunctionExists.c.o
+        /usr/bin/gcc   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_58f50.dir/CheckFunctionExists.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fPQrty/CheckFunctionExists.c
+        Linking C executable cmTC_58f50
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58f50.dir/link.txt --verbose=1
+        /usr/bin/gcc  -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_58f50.dir/CheckFunctionExists.c.o -o cmTC_58f50  -lICE 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fPQrty'
+        
+      exitCode: 0
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-CT3UOY"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-CT3UOY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-CT3UOY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_528cf/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_528cf.dir/build.make CMakeFiles/cmTC_528cf.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-CT3UOY'
+        Building C object CMakeFiles/cmTC_528cf.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_528cf.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-CT3UOY/test_mpi.c
+        Linking C executable cmTC_528cf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_528cf.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_528cf.dir/test_mpi.c.o -o cmTC_528cf  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-CT3UOY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_92eb8/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_92eb8.dir/build.make CMakeFiles/cmTC_92eb8.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_92eb8.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_92eb8.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_92eb8.dir/build.make:78: CMakeFiles/cmTC_92eb8.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_92eb8/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-zGPLU5"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-zGPLU5"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-zGPLU5'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_04a7f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_04a7f.dir/build.make CMakeFiles/cmTC_04a7f.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-zGPLU5'
+        Building C object CMakeFiles/cmTC_04a7f.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_04a7f.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-zGPLU5/test_mpi.c
+        Linking C executable cmTC_04a7f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04a7f.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_04a7f.dir/test_mpi.c.o -o cmTC_04a7f  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-zGPLU5'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d977f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d977f.dir/build.make CMakeFiles/cmTC_d977f.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_d977f.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_d977f.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_d977f.dir/build.make:78: CMakeFiles/cmTC_d977f.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_d977f/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-l39Ses"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-l39Ses"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-l39Ses'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce376/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ce376.dir/build.make CMakeFiles/cmTC_ce376.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-l39Ses'
+        Building C object CMakeFiles/cmTC_ce376.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ce376.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-l39Ses/test_mpi.c
+        Linking C executable cmTC_ce376
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce376.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_ce376.dir/test_mpi.c.o -o cmTC_ce376  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-l39Ses'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_83c43/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_83c43.dir/build.make CMakeFiles/cmTC_83c43.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_83c43.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_83c43.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_83c43.dir/build.make:78: CMakeFiles/cmTC_83c43.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_83c43/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_16d59/fast
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_16d59.dir/build.make CMakeFiles/cmTC_16d59.dir/build
+        gmake[2]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g'
+        Building C object CMakeFiles/cmTC_16d59.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_16d59.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g/test_mpi.c
+        Linking C executable cmTC_16d59
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16d59.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_16d59.dir/test_mpi.c.o -o cmTC_16d59  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g'
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-4ypC7g'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f13fe/fast
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f13fe.dir/build.make CMakeFiles/cmTC_f13fe.dir/build
+        gmake[2]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_f13fe.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_f13fe.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[2]: *** [CMakeFiles/cmTC_f13fe.dir/build.make:78: CMakeFiles/cmTC_f13fe.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[2]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake[1]: *** [Makefile:127: cmTC_f13fe/fast] Error 2
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_75f58/fast
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_75f58.dir/build.make CMakeFiles/cmTC_75f58.dir/build
+        gmake[2]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO'
+        Building C object CMakeFiles/cmTC_75f58.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_75f58.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO/test_mpi.c
+        Linking C executable cmTC_75f58
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75f58.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_75f58.dir/test_mpi.c.o -o cmTC_75f58  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[2]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO'
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-Mw0TLO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_79e76/fast
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        /usr/bin/gmake  -f CMakeFiles/cmTC_79e76.dir/build.make CMakeFiles/cmTC_79e76.dir/build
+        gmake[2]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_79e76.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_79e76.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[2]: *** [CMakeFiles/cmTC_79e76.dir/build.make:78: CMakeFiles/cmTC_79e76.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[2]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake[1]: *** [Makefile:127: cmTC_79e76/fast] Error 2
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ePBBMk"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ePBBMk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ePBBMk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_429f9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_429f9.dir/build.make CMakeFiles/cmTC_429f9.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ePBBMk'
+        Building C object CMakeFiles/cmTC_429f9.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_429f9.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ePBBMk/test_mpi.c
+        Linking C executable cmTC_429f9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_429f9.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_429f9.dir/test_mpi.c.o -o cmTC_429f9  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-ePBBMk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e2d6b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e2d6b.dir/build.make CMakeFiles/cmTC_e2d6b.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e2d6b.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_e2d6b.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_e2d6b.dir/build.make:78: CMakeFiles/cmTC_e2d6b.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_e2d6b/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vJuSg7"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vJuSg7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vJuSg7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6d648/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6d648.dir/build.make CMakeFiles/cmTC_6d648.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vJuSg7'
+        Building C object CMakeFiles/cmTC_6d648.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_6d648.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vJuSg7/test_mpi.c
+        Linking C executable cmTC_6d648
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6d648.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_6d648.dir/test_mpi.c.o -o cmTC_6d648  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-vJuSg7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d07d3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d07d3.dir/build.make CMakeFiles/cmTC_d07d3.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_d07d3.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_d07d3.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_d07d3.dir/build.make:78: CMakeFiles/cmTC_d07d3.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_d07d3/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5CCAar"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5CCAar"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5CCAar'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a9272/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a9272.dir/build.make CMakeFiles/cmTC_a9272.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5CCAar'
+        Building C object CMakeFiles/cmTC_a9272.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_a9272.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5CCAar/test_mpi.c
+        Linking C executable cmTC_a9272
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a9272.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_a9272.dir/test_mpi.c.o -o cmTC_a9272  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5CCAar'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b9b6a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b9b6a.dir/build.make CMakeFiles/cmTC_b9b6a.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_b9b6a.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_b9b6a.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_b9b6a.dir/build.make:78: CMakeFiles/cmTC_b9b6a.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_b9b6a/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fRX9Vi"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fRX9Vi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fRX9Vi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad9a3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ad9a3.dir/build.make CMakeFiles/cmTC_ad9a3.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fRX9Vi'
+        Building C object CMakeFiles/cmTC_ad9a3.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_ad9a3.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fRX9Vi/test_mpi.c
+        Linking C executable cmTC_ad9a3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad9a3.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_ad9a3.dir/test_mpi.c.o -o cmTC_ad9a3  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-fRX9Vi'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2a188/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2a188.dir/build.make CMakeFiles/cmTC_2a188.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_2a188.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_2a188.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_2a188.dir/build.make:78: CMakeFiles/cmTC_2a188.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_2a188/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-TxrSMV"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-TxrSMV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-TxrSMV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_332d5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_332d5.dir/build.make CMakeFiles/cmTC_332d5.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-TxrSMV'
+        Building C object CMakeFiles/cmTC_332d5.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_332d5.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-TxrSMV/test_mpi.c
+        Linking C executable cmTC_332d5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_332d5.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_332d5.dir/test_mpi.c.o -o cmTC_332d5  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-TxrSMV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24c64/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_24c64.dir/build.make CMakeFiles/cmTC_24c64.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_24c64.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_24c64.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_24c64.dir/build.make:78: CMakeFiles/cmTC_24c64.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_24c64/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5LD0HB"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5LD0HB"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5LD0HB'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_97590/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_97590.dir/build.make CMakeFiles/cmTC_97590.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5LD0HB'
+        Building C object CMakeFiles/cmTC_97590.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_97590.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5LD0HB/test_mpi.c
+        Linking C executable cmTC_97590
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_97590.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_97590.dir/test_mpi.c.o -o cmTC_97590  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-5LD0HB'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_54ada/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_54ada.dir/build.make CMakeFiles/cmTC_54ada.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_54ada.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_54ada.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_54ada.dir/build.make:78: CMakeFiles/cmTC_54ada.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_54ada/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jikWht"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jikWht"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jikWht'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_7fe52/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_7fe52.dir/build.make CMakeFiles/cmTC_7fe52.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jikWht'
+        Building C object CMakeFiles/cmTC_7fe52.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_7fe52.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jikWht/test_mpi.c
+        Linking C executable cmTC_7fe52
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fe52.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_7fe52.dir/test_mpi.c.o -o cmTC_7fe52  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-jikWht'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5382d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5382d.dir/build.make CMakeFiles/cmTC_5382d.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_5382d.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_5382d.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_5382d.dir/build.make:78: CMakeFiles/cmTC_5382d.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_5382d/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cfwaeO"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cfwaeO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cfwaeO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_01d4b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_01d4b.dir/build.make CMakeFiles/cmTC_01d4b.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cfwaeO'
+        Building C object CMakeFiles/cmTC_01d4b.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_01d4b.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cfwaeO/test_mpi.c
+        Linking C executable cmTC_01d4b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_01d4b.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_01d4b.dir/test_mpi.c.o -o cmTC_01d4b  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cfwaeO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e5ec6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e5ec6.dir/build.make CMakeFiles/cmTC_e5ec6.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_e5ec6.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_e5ec6.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_e5ec6.dir/build.make:78: CMakeFiles/cmTC_e5ec6.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_e5ec6/fast] Error 2
+        
+      exitCode: 2
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f0Npoo"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f0Npoo"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f0Npoo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cb10b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cb10b.dir/build.make CMakeFiles/cmTC_cb10b.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f0Npoo'
+        Building C object CMakeFiles/cmTC_cb10b.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_cb10b.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f0Npoo/test_mpi.c
+        Linking C executable cmTC_cb10b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb10b.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_cb10b.dir/test_mpi.c.o -o cmTC_cb10b  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-f0Npoo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_da8ed/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_da8ed.dir/build.make CMakeFiles/cmTC_da8ed.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_da8ed.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_da8ed.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_da8ed.dir/build.make:78: CMakeFiles/cmTC_da8ed.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_da8ed/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-AIh4d3"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-AIh4d3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-AIh4d3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f4aaf/fast
+        gmake: Warning: File 'Makefile' has modification time 1.7 s in the future
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f4aaf.dir/build.make CMakeFiles/cmTC_f4aaf.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-AIh4d3'
+        gmake[1]: Warning: File 'CMakeFiles/cmTC_f4aaf.dir/flags.make' has modification time 1.7 s in the future
+        Building C object CMakeFiles/cmTC_f4aaf.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_f4aaf.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-AIh4d3/test_mpi.c
+        Linking C executable cmTC_f4aaf
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4aaf.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_f4aaf.dir/test_mpi.c.o -o cmTC_f4aaf  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: warning:  Clock skew detected.  Your build may be incomplete.
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-AIh4d3'
+        gmake: warning:  Clock skew detected.  Your build may be incomplete.
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_179c3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_179c3.dir/build.make CMakeFiles/cmTC_179c3.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_179c3.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_179c3.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_179c3.dir/build.make:78: CMakeFiles/cmTC_179c3.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_179c3/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cc2fIv"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cc2fIv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cc2fIv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_12ece/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_12ece.dir/build.make CMakeFiles/cmTC_12ece.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cc2fIv'
+        Building C object CMakeFiles/cmTC_12ece.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_12ece.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cc2fIv/test_mpi.c
+        Linking C executable cmTC_12ece
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12ece.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_12ece.dir/test_mpi.c.o -o cmTC_12ece  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-cc2fIv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5adb5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5adb5.dir/build.make CMakeFiles/cmTC_5adb5.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_5adb5.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_5adb5.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_5adb5.dir/build.make:78: CMakeFiles/cmTC_5adb5.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_5adb5/fast] Error 2
+        
+      exitCode: 2
+...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1278 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1322 (_MPI_try_staged_settings)"
+      - "/usr/share/cmake-3.28/Modules/FindMPI.cmake:1645 (_MPI_check_lang_works)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:397 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    description: "The MPI test test_mpi for C in mode normal"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1OjVcM"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1OjVcM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "MPI_RESULT_C_test_mpi_normal"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1OjVcM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d9f0f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d9f0f.dir/build.make CMakeFiles/cmTC_d9f0f.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1OjVcM'
+        Building C object CMakeFiles/cmTC_d9f0f.dir/test_mpi.c.o
+        /usr/bin/gcc  -isystem /usr/lib/x86_64-linux-gnu/openmpi/include -isystem /usr/lib/x86_64-linux-gnu/openmpi/include/openmpi  -o CMakeFiles/cmTC_d9f0f.dir/test_mpi.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1OjVcM/test_mpi.c
+        Linking C executable cmTC_d9f0f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d9f0f.dir/link.txt --verbose=1
+        /usr/bin/gcc -L/usr/lib/x86_64-linux-gnu/openmpi/lib CMakeFiles/cmTC_d9f0f.dir/test_mpi.c.o -o cmTC_d9f0f  /usr/lib/x86_64-linux-gnu/libmpi.so 
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/CMakeScratch/TryCompile-1OjVcM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:241 (try_compile)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99/FindHDF5.cmake:596 (_HDF5_test_regular_compiler_C)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/VTK-vtk-module-find-packages.cmake:444 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/vtk-config.cmake:150 (include)"
+      - "CMakeLists.txt:31 (find_package)"
+    directories:
+      source: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+      binary: "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1/patches/99;/usr/lib/x86_64-linux-gnu/cmake/vtk-9.1"
+    buildResult:
+      variable: "HDF5_C_COMPILER_NO_INTERROGATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_8b4ba/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_8b4ba.dir/build.make CMakeFiles/cmTC_8b4ba.dir/build
+        gmake[1]: Entering directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_8b4ba.dir/cmake_hdf5_test.c.o
+        /usr/bin/gcc    -o CMakeFiles/cmTC_8b4ba.dir/cmake_hdf5_test.c.o -c /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c
+        /home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/cmake_hdf5_test.c:1:10: fatal error: hdf5.h: No such file or directory
+            1 | #include <hdf5.h>
+              |          ^~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_8b4ba.dir/build.make:78: CMakeFiles/cmTC_8b4ba.dir/cmake_hdf5_test.c.o] Error 1
+        gmake[1]: Leaving directory '/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build/CMakeFiles/hdf5/CMakeFiles/CMakeTmp'
+        gmake: *** [Makefile:127: cmTC_8b4ba/fast] Error 2
+        
+      exitCode: 2
+...

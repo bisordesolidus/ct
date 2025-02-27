@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.11"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vtkdemo",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cubic2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cubic2d-Debug-0bfb9950193068060fca.json",
+					"name" : "cubic2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cubic3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cubic3d-Debug-c1bf415b2197a892b59e.json",
+					"name" : "cubic3d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tetr3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tetr3d-Debug-a357d3faeaf4530633b7.json",
+					"name" : "tetr3d",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp/build",
+		"source" : "/home/bisordesolidus/proga_4_semestr/lab_2/miniscience-4th-term/2025/02_vtk/cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
