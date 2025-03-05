@@ -129,6 +129,34 @@ demo_poisson/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_poisson.dir/build.make CMakeFiles/demo_poisson.dir/build
 .PHONY : demo_poisson/fast
 
+#=============================================================================
+# Target rules for targets named build_figure
+
+# Build rule for target.
+build_figure: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 build_figure
+.PHONY : build_figure
+
+# fast build rule for target.
+build_figure/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_figure.dir/build.make CMakeFiles/build_figure.dir/build
+.PHONY : build_figure/fast
+
+# target to build an object file
+build_figure.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_figure.dir/build.make CMakeFiles/build_figure.dir/build_figure.o
+.PHONY : build_figure.o
+
+# target to preprocess a source file
+build_figure.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_figure.dir/build.make CMakeFiles/build_figure.dir/build_figure.i
+.PHONY : build_figure.i
+
+# target to generate assembly for a file
+build_figure.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_figure.dir/build.make CMakeFiles/build_figure.dir/build_figure.s
+.PHONY : build_figure.s
+
 # target to build an object file
 main.o:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_poisson.dir/build.make CMakeFiles/demo_poisson.dir/main.o
@@ -152,7 +180,11 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... build_figure"
 	@echo "... demo_poisson"
+	@echo "... build_figure.o"
+	@echo "... build_figure.i"
+	@echo "... build_figure.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

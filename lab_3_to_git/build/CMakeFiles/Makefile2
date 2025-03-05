@@ -64,6 +64,7 @@ CMAKE_BINARY_DIR = /home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-te
 
 # The main recursive "all" target.
 all: CMakeFiles/demo_poisson.dir/all
+all: CMakeFiles/build_figure.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +73,7 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/demo_poisson.dir/clean
+clean: CMakeFiles/build_figure.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -81,7 +83,7 @@ clean: CMakeFiles/demo_poisson.dir/clean
 CMakeFiles/demo_poisson.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_poisson.dir/build.make CMakeFiles/demo_poisson.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_poisson.dir/build.make CMakeFiles/demo_poisson.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles --progress-num=1,2 "Built target demo_poisson"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles --progress-num=3,4 "Built target demo_poisson"
 .PHONY : CMakeFiles/demo_poisson.dir/all
 
 # Build rule for subdir invocation for target.
@@ -99,6 +101,32 @@ demo_poisson: CMakeFiles/demo_poisson.dir/rule
 CMakeFiles/demo_poisson.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/demo_poisson.dir/build.make CMakeFiles/demo_poisson.dir/clean
 .PHONY : CMakeFiles/demo_poisson.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/build_figure.dir
+
+# All Build rule for target.
+CMakeFiles/build_figure.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_figure.dir/build.make CMakeFiles/build_figure.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_figure.dir/build.make CMakeFiles/build_figure.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles --progress-num=1,2 "Built target build_figure"
+.PHONY : CMakeFiles/build_figure.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/build_figure.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/build_figure.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles 0
+.PHONY : CMakeFiles/build_figure.dir/rule
+
+# Convenience name for target.
+build_figure: CMakeFiles/build_figure.dir/rule
+.PHONY : build_figure
+
+# clean rule for target.
+CMakeFiles/build_figure.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/build_figure.dir/build.make CMakeFiles/build_figure.dir/clean
+.PHONY : CMakeFiles/build_figure.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

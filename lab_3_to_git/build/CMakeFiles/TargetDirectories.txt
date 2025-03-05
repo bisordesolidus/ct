@@ -1,3 +1,4 @@
 /home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles/demo_poisson.dir
+/home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles/build_figure.dir
 /home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles/edit_cache.dir
 /home/bisordesolidus/proga_4_semestr/lab_3/miniscience-4th-term/2025/03_fenics/cpp/poisson/cpp/build/CMakeFiles/rebuild_cache.dir

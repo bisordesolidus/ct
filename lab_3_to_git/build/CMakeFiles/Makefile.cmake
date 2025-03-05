@@ -65,4 +65,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/demo_poisson.dir/DependInfo.cmake"
+  "CMakeFiles/build_figure.dir/DependInfo.cmake"
   )

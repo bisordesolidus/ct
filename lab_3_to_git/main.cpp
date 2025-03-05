@@ -11,8 +11,8 @@ class Source : public Expression
   {
     double dx = x[0];
     double dy = x[1];
-    values[0] = 1000*exp(-(dx*dy + dy*dy) / 0.02);
-    values[1] = 1000*exp(-(dx*dy + dy*dy) / 0.02);
+    values[0] = 500 * exp(-(dx*dx + dy*dy) * 1000);
+    values[1] = 2000 * exp(-(dx*dx + dy*dy) * 1000);
   }
 };
 
@@ -20,7 +20,7 @@ class dUdN : public Expression
 {
   void eval(Array<double>& values, const Array<double>& x) const
   {
-    values[0] = 0;
+    values[0] = 20 * exp(-1*(x[0]*x[0] + x[1]*x[1]))*sin(x[0]*x[0] + x[1]*x[1])*sin(x[0]*x[0] + x[1]*x[1]);
   }
 };
 
@@ -28,19 +28,21 @@ class DirichletBoundary : public SubDomain
 {
   bool inside(const Array<double>& x, bool on_boundary) const
   {
-    auto xx = x[0]-0.5;
-    auto yy = x[1]-0.5;
-    return yy+xx*(xx+pow(yy, 0.25))< DOLFIN_EPS;
+    auto e = 2;
+    auto xx = x[0]-5;
+    auto yy = x[1];
+    return pow(xx, 2/3) + pow(yy, 2/3) < pow(1, 2/3);
+    //return pow(xx,3)*yy - pow(yy,3)*xx<0;
+    //return xx*xx*sin(pow(yy, 2))-yy*yy*cos(pow(xx, 2))>0;
+    //return xx < 100 and yy <100;
   }
 };
 
 int main()
 {
-  auto mesh = std::make_shared<Mesh>(
-    UnitSquareMesh::create({{32, 32}}, CellType::Type::triangle));
-  auto V = std::make_shared<Poisson::FunctionSpace>(mesh);
-
-  auto u0 = std::make_shared<Constant>(0.0);
+  auto mesh = std::make_shared<Mesh>("figure.xml");
+	auto V = std::make_shared<Poisson::FunctionSpace>(mesh);
+  auto u0 = std::make_shared<Constant>(2.0);
   auto boundary = std::make_shared<DirichletBoundary>();
   DirichletBC bc(V, u0, boundary);
 
